@@ -1,26 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marius Etourneau</title>
-    <link rel="stylesheet"  type="text/css" title="style" href="style.css"/>
+  <meta charset="UTF-8">
+  <title>Marius Etourneau</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" title="style" href="style.css" />
+  <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" /> -->
+  
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" ></script>
 </head>
+
 <body>
-    <nav class="dropdownmenu">
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="Réalisation.html">Réalisations</a></li>
+
+  <nav>
+    <div class="logo">
+      <h4>Marius etourneau</h4>
+    </div>
+    <ul id="mobilNav" class="nav-links" >
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <ul class="nav-links" >
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Portfolio</a></li>
         <li><a href="#">Contact</a></li>
-      </ul>      
-    </nav>
+      </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
 
-<div>
-    
-        <p>Titulaire d'un DUT Métiers du multimédia et de l'Internet, je suis actuellement en recherche d'emploi après avoir travailler un an en temps que Webmaster à la Caisse des Dépôts d'Angers.
-         Titulaire d'un DUT Métiers du multimédia et de l'Internet, je suis actuellement en recherche d'emploi après avoir travailler un an en temps que Webmaster à la Caisse des Dépôts d'Angers.Titulaire d'un DUT Métiers du multimédia et de l'Internet, je suis actuellement en recherche d'emploi après avoir travailler un an en temps que Webmaster à la Caisse des Dépôts d'Angers.</p> 
-
+<div class="bootstrap-iso">
+<section id="about" class="section-padding basic-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="containerAbout">
+          <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+            <img class="img-fluid" src="images/profil1.jpg" id="imgWidth" alt="profil">
+          </div>
+        </div> 
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="containerAbout">
+          <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s" id="containerBio">
+              <h2 style="font-size: 38px;
+              font-weight: bold; color: #666666;">A PROPOS</h2>
+              <br>
+              <p>	Titulaire d’un DUT Métiers de Multimédia et de l’Internet, je suis à la recherche d’un emploi dans le milieu du web. 
+                <br><br>J’ai pu acquérir de l’expérience dans ce domaine lors de mes deux années d’études, mais également grâce aux différentes entreprises par lesquelles je suis passé.
+                <br>En effet, j’ai réalisé mon stage de fin d’études dans une agence de communication au Mans ou j’ai pu traivailler avec divers clients. Mon précedent poste de Webmaster à la caisse des dépôts ma permis de développer mon savoir-faire en matière de language web mais également d’acquérir de nouvelles comptétences (E-mailing/Drupal/Language Web)
+                
+                Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.</p>
+                <br>
+                <ul class="about-link">
+                  <li><a href=""><i class="fab fa-github"></i></a></li>
+                  <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </section>
 </div>
+
+<div class="bootstrap-iso">
+<section id="services" class="services section-padding">
+    <br><br>
+    <h2 style="font-size: 38px;
+    font-weight: 700;color: #293133;" data-wow-delay="0.4s">MES COMPETENCES</h2>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <!-- Services item -->
+        <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s" id="containerService">
+              <div class="icon">
+                  <i class="fab fa-dev"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Développement Front-End</a></h3>
+                <p>Maitrise de divers langages web (HTML/CSS/JS)</p>
+              </div>
+            </div>
+          </div>
+        <!-- Services item -->
+        <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="1.2s" id="containerService">
+              <div class="icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">developpement back-end</a></h3>
+                <p>Maitrise de divers langages web (HTML/CSS/JS)</p>
+              </div>
+            </div>
+          </div>
+        <!-- Services item -->
+        <div class="col-md-6 col-lg-3 col-xs-12">
+          <div class="services-item wow fadeInDown" data-wow-delay="0.9s" id="containerService">
+            <div class="icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="services-content">
+              <h3><a href="#">Gestion Emailing</a></h3>
+              <p>Maitrise de logiciels de gestion de mails<br>(Cabestan)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Services item -->
+        <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s" id="containerService">
+              <div class="icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Design Graphique</a></h3>
+                <p>Maitrise de logiciels de la suite Adobe <br>(Illustrator/Photoshop/Lightroom)</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <br><br><br>
+  </section>
+</div>
+
+<div class="bootstrap-iso">
+<div id="resume" class="section-padding">
+  <br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6" id="containerParkour">
+        <div class="education wow fadeInRight" data-wow-delay="0.3s">
+          <ul class="timeline">
+            <li>
+              <i class="fab fa-github"></i>
+              <h2 style="font-weight: bold; color: #666666;" class="timelin-title">Education</h2>
+            </li>
+            <li>
+              <div class="content-text">
+                <h3 class="line-title">Iut tour</h3>
+                <span>2016 - 2018</span>
+                <p class="line-text">Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.</p>
+              </div>
+            </li>
+            <li>
+              <div class="content-text">
+                <h3 class="line-title">Lycée la fleche</h3>
+                <span>2013 - 2016</span>
+                <p class="line-text">Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6" id="containerParkour">
+        <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+          <ul class="timeline">
+            <li>
+              <i class="fab fa-github"></i>
+              <h2 style="font-weight: bold; color: #666666;" class="timelin-title">Experience</h2>
+            </li>
+            <li>
+              <div class="content-text">
+                <h3 class="line-title">Webmaster Caisse Des Dépôts</h3>
+                <span>2018 - 2019</span>
+                <p class="line-text">Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.</p>
+              </div>
+            </li>
+            <li>
+              <div class="content-text">
+                <h3 class="line-title">Stagiaire chez ArtéoConseil</h3>
+                <span>Septembre-Décembre 2018</span>
+                <p class="line-text">Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.Je souhaite désormais trouver un emploi me permettant d’évoluer professionnellement.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+</div>
+</div>
+
+
+<div class="bootstrap-iso">
+<div class="copyright">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <p class="p-small white">Copyright © Marius Etourneau - Webmaster</p>
+          </div> <!-- end of col -->
+      </div> <!-- enf of row -->
+  </div> <!-- end of container -->
+</div> <!-- end of copyright --> 
+<!-- end of copyright -->
+</div>
+
+
+
+
+
+<script src="script.js" defer></script>
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 </body>
 </html>
